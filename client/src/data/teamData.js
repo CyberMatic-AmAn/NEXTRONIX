@@ -13,6 +13,7 @@ import tech2 from "@assets/tech-2.png"
 import tech3 from "@assets/tech-3.jpg"
 import tech4 from "@assets/tech-4.jpg"
 import tech5 from "@assets/tech-5.jpg"
+import tech6 from "@assets/tech-6.jpg"
 
 
 export const teamData = {
@@ -157,6 +158,15 @@ export const teamData = {
       email: "amankumaramankumar6969@gmail.com",
       image: tech5,
       linkedin: "https://www.linkedin.com/in/aman-kumar-24a968291",
+      github: "https://github.com/",
+    },
+    {
+      id: "tech-6",
+      name: "Aman Sonwani",
+      position: "Technical Team Member",
+      email: "exehyper999@gmail.com",
+      image: tech6,
+      linkedin: "https://www.linkedin.com/",
       github: "https://github.com/",
     },
   ],
