@@ -1,0 +1,43 @@
+/* Reuse styles from Home.css where applicable */
+.bg-deep-black {
+  background-color: #000000; /* Deep black for cyberpunk vibe */
+}
+.text-electric-blue {
+  color: #00A6FB; /* Vibrant electric blue */
+}
+.text-cyber-cyan {
+  color: #00FFF5; /* Bright cyber cyan */
+}
+.text-vivid-magenta {
+  color: #FF007A; /* Vibrant magenta for hover */
+}
+.border-electric-blue {
+  border-color: #00A6FB; /* Electric blue for borders */
+}
+.border-cyber-cyan {
+  border-color: #00FFF5; /* Cyber cyan for borders */
+}
+.font-orbitron {
+  font-family: "Orbitron", sans-serif;
+}
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+.shadow-glow {
+  box-shadow: 0 0 15px rgba(0, 166, 251, 0.4); /* Electric blue glow */
+}
+.shadow-text {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6); /* Electric blue text shadow */
+  animation: pulse-glow 1.5s ease-in-out infinite;
+}
+@keyframes pulse-glow {
+  0% {
+    text-shadow: 0 0 10px rgba(0, 166, 251, 0.6);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(0, 166, 251, 0.8);
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(0, 166, 251, 0.6);
+  }
+}

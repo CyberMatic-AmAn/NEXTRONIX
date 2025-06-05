@@ -1,0 +1,86 @@
+.circuit-pattern {
+  background-image: url('/patterns/circuit-tile.png');
+  background-size: 200px 200px;
+  background-position: center;
+  background-repeat: repeat;
+}
+.circuit-overlay {
+  background-image: url('/patterns/circuit-overlay.png');
+  background-size: 150px 150px;
+  background-position: center;
+  background-repeat: repeat;
+  opacity: 0.3;
+}
+.shadow-glow {
+  box-shadow: 0 0 15px rgb(0, 0, 0); /* Electric Blue */
+}
+.shadow-img {
+  box-shadow: 0 0 30px rgb(0, 0, 0); /* Electric Blue for images */
+}
+.shadow-text {
+  text-shadow: 0 0 10px rgb(0, 0, 0); /* Electric Blue */
+  animation: pulse-glow 1.5s ease-in-out infinite;
+}
+.bg-deep-black {
+  background-color: #0D1B2A; /* Deep black for cyberpunk vibe */
+}
+.text-electric-blue {
+  color: #ffffff; /* Vibrant electric blue */
+}
+.text-cyber-cyan {
+  color: #ffffff; /* Bright cyber cyan */
+}
+.bg-vivid-magenta {
+  background-color: #FF007A; /* Vibrant magenta for buttons */
+}
+.bg-dark-magenta {
+  background-color: #C6005C; /* Darker magenta for hover */
+}
+.text-vivid-magenta {
+  color: #FF007A; /* Vibrant magenta for text */
+}
+.border-vivid-magenta {
+  border-color: #FF007A; /* Vibrant magenta for borders */
+}
+.font-orbitron {
+  font-family: "Orbitron", sans-serif;
+}
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+.font-jetbrains {
+  font-family: "JetBrains Mono", monospace;
+}
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+.animate-blink {
+  animation: blink 0.7s step-end infinite;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes pulse-glow {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 1);
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+  }
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
