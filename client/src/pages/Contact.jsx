@@ -141,6 +141,14 @@ const Contact = () => {
               >
                 <i className="fab fa-github text-2xl"></i>
               </motion.a>
+              <motion.a
+                href=" https://www.youtube.com/@NEXTRONIX-s6x"
+                className="w-16 h-16 bg-neon-blue/20 rounded-xl flex items-center justify-center text-neon-blue hover:bg-neon-blue hover:text-black transition-all duration-300"
+                whileHover={{ scale: 1.1, rotate: 5 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                <i className="fab fa-youtube text-2xl"></i>
+              </motion.a>
             </div>
           </div>
         </motion.div>
@@ -158,7 +166,7 @@ const Contact = () => {
 
           <div className="space-y-6">
             <motion.a
-              href="mailto:contact@nextronix.club?subject=Interest%20in%20NEXTRONIX&body=Hi%20NEXTRONIX%20team%2C%0A%0AI'm%20interested%20in%20learning%20more%20about%20your%20robotics%20club.%0A%0ABest%20regards"
+              href="mailto:maya.patel@nextronix.com?subject=Interest%20in%20NEXTRONIX&body=Hi%20NEXTRONIX%20team%2C%0A%0AI'm%20interested%20in%20learning%20more%20about%20your%20robotics%20club.%0A%0ABest%20regards"
               className="w-full bg-neon-blue text-black font-semibold py-3 rounded-lg hover:bg-neon-blue/80 transition-colors flex items-center justify-center"
               whileHover={{ scale: 1.02, boxShadow: "0 0 20px #00BFFF" }}
               whileTap={{ scale: 0.98 }}
@@ -183,8 +191,8 @@ const Contact = () => {
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
             >
-              <i className="fab fa-discord mr-2"></i>
-              Join Discord
+              <i className="fab fa-youtube mr-2"></i>
+              Subscribe to our YouTube channel
             </motion.a>
           </div>
         </motion.div>
