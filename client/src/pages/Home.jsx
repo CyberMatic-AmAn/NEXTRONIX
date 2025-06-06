@@ -563,7 +563,8 @@ export default function Home() {
   const socialLinks = [
     { platform: "instagram", url: "https://www.instagram.com/nextronix.utd/", label: "Instagram" },
     { platform: "linkedin", url: "https://www.linkedin.com/company/nextronix-utd", label: "LinkedIn" },
-    { platform: "github", url: " https://github.com/Nextronix-Club", label: "GitHub" },
+    { platform: "github", url: "https://github.com/Nextronix-Club", label: "GitHub" },
+    { platform: "youtube", url: "https://www.youtube.com/@NEXTRONIX-s6x", label: "YouTube" },
   ];
 
   const roboticsFacts = [
@@ -587,7 +588,7 @@ export default function Home() {
         />
       </div>
       <section className="relative min-h-screen pt-20 flex items-center overflow-hidden" id="hero">
-        <div className="container px-4 py-16 mx-auto relative z-10">
+        <div className="container px-4 pb-20 pt-10 mx-auto relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
