@@ -1,7 +1,7 @@
-import mentor from "@assets/mentor1.jpg";
+import mentor1 from "@assets/mentor1.jpg";
+import mentor2 from "@assets/mentor2.jpg";
 import leader1 from "@assets/leader-1.jpg";
 import leader2 from "@assets/leader-2.jpg";
-import leader3 from "@assets/leader-3.jpg";
 import pr1 from "@assets/pr-1.jpg"
 import pr2 from "@assets/pr-2.jpg"
 import pr3 from "@assets/pr-3.jpg"
@@ -23,9 +23,18 @@ export const teamData = {
       name: "Dr. Nachiket Tapas",
       position: "Club Incharge and Technical Advisor",
       email: "nachikettapas@gmail.com",
-      image: mentor,
+      image: mentor1,
       linkedin: "https://www.linkedin.com/in/nachikettapas",
       github: "https://github.com/nachikettapas",
+    },
+    {
+      id: "mentor-2",
+      name: "Dr. R.G Brajesh",
+      position: "Club Faculty Advisors",
+      email: "",
+      image: mentor2,
+      linkedin: "https://www.linkedin.com/in/r-g-brajesh-10291327",
+      github: "https://github.com/",
     },
   
   ],
@@ -42,7 +51,7 @@ export const teamData = {
     {
       id: "leader-2",
       name: "Hridyesh Kumar Prajapati",
-      position: "Vice President",
+      position: "Vice President - Design and Technical",
       email: "maya.patel@nextronix.com",
       image: leader2,
       linkedin: "https://www.linkedin.com/in/hridyesh-kumar-10a52028a/",
@@ -50,24 +59,15 @@ export const teamData = {
     },
     {
       id: "leader-3",
-      name: "Aksh Agrawal",
-      position: "Technical Secretary",
-      email: "akshagr10@gmail.com",
-      image: leader3,
-      linkedin: "https://www.linkedin.com/in/aksh-agrawal-436066327",
-      github: "https://github.com/Aksh-Agrawal",
-    },
-  ],
-  outreach:[
-    {
-      id: "pr-1",
       name: "Kavya Sahu",
-      position: "Vice President",
+      position: "Vice President - P.R and Outreach",
       email: "kavyasahu.0712@gmail.com",
       image: pr1,
       linkedin: "https://www.linkedin.com/in/kavya-sahu-1873a2327/",
       github: "https://github.com/Kavyasahu077",
     },
+  ],
+  outreach:[
     {
       id: "pr-2",
       name: "Samiksha Ajane",
